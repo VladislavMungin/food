@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', function() {
     const modalTimerId = setTimeout(()=>openModal('.modal',modalTimerId), 1000);
     const deadline = '2024-06-11';
 
-    tabs('.tabheader__item','.tabcontent','.tabheader__items','.tabheader__item_active');
+    tabs('.tabheader__item','.tabcontent','.tabheader__items','tabheader__item_active');
     modal('[data-modal]','.modal',modalTimerId);
     calc();
     cards();
